@@ -1,0 +1,17 @@
+.addPosts {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.postInput {
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.postButton {
+    width: 10vh;
+    padding: 5px;
+    border-radius: 8px;
+}
