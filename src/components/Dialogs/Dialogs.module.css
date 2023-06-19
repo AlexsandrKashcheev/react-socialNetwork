@@ -1,0 +1,40 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 4fr 10fr;
+}
+
+.dialogsItems{
+    padding: 10px;
+}
+
+.item{
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.item:active, .item:focus, .item:hover{
+    background-color: rgb(163, 163, 163);
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.item a:active, .item a:focus, .item a:hover{
+    color: aqua;
+}
+
+.messages{
+    padding: 10px;
+}
+
+.message{}
+
+.inputMessage {
+    padding: 10px;
+    border-radius: 8px;
+}

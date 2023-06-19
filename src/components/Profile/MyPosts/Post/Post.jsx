@@ -3,7 +3,6 @@ import PostModule from './Post.module.css';
 
 
 const Post = (props) => {
-    console.log(props.message);
     return(
         <div className={PostModule.post_container}>
             <div className={PostModule.item}>

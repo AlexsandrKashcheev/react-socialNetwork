@@ -1,15 +1,17 @@
 import React from "react";
-import ProfModule from './Profile.module.css';
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 const Profile = (props) => {
+    
     return(
         <div>
-            <img className={ProfModule.profileImg} src="https://img.fonwall.ru/o/50/voda_reka_vodopad_kustyi_trava.jpg?route=mid&amp;h=750"/>
-            <div className={ProfModule.user_info}>
-                ava + decription
-            </div>
-            <MyPosts />
+            <ProfileInfo/>
+            <MyPosts 
+                posts={props.profilePage.postsData}
+                newPostText={props.profilePage.newPostText} 
+                addPost={props.addPost} 
+                updatePostText={props.updatePostText} />
         </div>
       
     
